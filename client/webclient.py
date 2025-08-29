@@ -10,7 +10,7 @@ pygame.init()
 
 SERVER_IP = "192.168.1.83"
 PORT = 5000
-URI = sys.argv[1] if len(sys.argv) > 1 else "ws://127.0.0.1:5000"
+URI = sys.argv[1] if len(sys.argv) > 1 else "wss://quaint-rosalyn-1watershines1-26fb7e90.koyeb.app"
 
 SIZE = (800, 1000)
 SCREEN = pygame.display.set_mode(SIZE)
